@@ -1,0 +1,259 @@
+.ivu-select-selection{
+  text-align: center!important;
+}
+.ivu-select-dropdown-list{
+  text-align: left!important;
+  max-height: 300px;
+  z-index: 9999;
+}
+.ivu-card-head{
+  text-align: left!important;
+}
+.display{
+  display: flex;
+  flex-flow: row nowrap;
+}
+.ivu-spin-large .ivu-spin-dot {
+  width: 64px!important;
+  height: 64px!important;
+  background: red!important;
+  animation: ani-spin-bounce 1.15s 0s ease-in-out infinite;
+}
+/*table {*/
+  /*border-collapse: collapse;*/
+  /*padding: 1px;*/
+  /*margin: 0px;*/
+  /*empty-cells: show;*/
+  /*border-spacing: 0;*/
+/*}*/
+
+table td {
+  text-align: left;
+  padding: 5px 2px;
+  font-size: 12px;
+  /*color: #7f7f7f;*/
+  color: #666;
+  /*white-space: nowrap;*/
+  border: 1px solid #DDDDDD;
+}
+
+table th {
+  border: 1px solid #DDDDDD;
+  background-color: #F8F8F8;
+  color: #6c6e71;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  /*white-space: nowrap;*/
+}
+.ivu-tabs.ivu-tabs-card>.ivu-tabs-bar .ivu-tabs-tab{
+  color:#000;
+  font-size:16px;
+  border: none;
+  background: white;
+}
+.ivu-tabs-mini .ivu-tabs-tab-active {
+  border:none!important;
+  border-bottom:2px solid #439cb5!important;
+  border-color: #439cb5!important;
+  color: white !important;
+  background-color: #439cb5;
+}
+.ivu-tabs.ivu-tabs-card>.ivu-tabs-bar .ivu-tabs-tab-active{
+  border-bottom:4px solid #439cb5!important;
+  border-color: #439cb5!important;
+  color: white !important;
+  background-color: #439cb5;
+  font-size:16px;
+}
+.ivu-tabs  .ivu-icon-ios-close:before{
+  color:black;
+}
+.ivu-tabs.ivu-tabs-card>.ivu-tabs-bar .ivu-tabs-tab-active .ivu-icon-ios-close:before{
+  color:white;
+}
+.ivu-tabs-mini .ivu-tabs-tab {
+  font-size: 12px;
+
+}
+.ivu-tabs-nav-container{
+  height: 32px!important;
+}
+.ivu-table td{
+  height:auto!important;
+  line-height: 1.1;
+}
+.ivu-table-cell{
+  padding-left:4px;
+  padding-right:4px
+}
+
+.ivu-page{
+  text-align: center;
+  margin-top: 5px;
+}
+.ivu-message-notice:first-child{
+  margin-top: 20%;
+}
+/*.bottom {*/
+  /*margin-bottom: 2px;*/
+  /*-webkit-box-shadow:0px 10px 15px #DDDDDD;*/
+/*}*/
+/*多选框样式*/
+.ivu-tag {
+   border: none;
+   background: #ffffff;
+}
+ .ivu-table th{
+  text-align: center!important;
+}
+/*选中样式的修改*/
+.ivu-table-row-highlight td, .ivu-table-stripe .ivu-table-body tr.ivu-table-row-highlight:nth-child(2n) td, .ivu-table-stripe .ivu-table-fixed-body tr.ivu-table-row-highlight:nth-child(2n) td, tr.ivu-table-row-highlight.ivu-table-row-hover td{
+  background-color:#BFEFFF;
+}
+/*选择框的多选样式*/
+.ivu-select-selection div{
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.ivu-modal-header{
+  background-color: #439cb5;
+}
+.ivu-modal-close .ivu-icon-ios-close {
+  color:white
+}
+.ivu-modal-close .ivu-icon-ios-close:hover{
+  color:white
+}
+.ivu-modal-header-inner{
+  color:white
+}
+/*.ivu-icon-ios-close{*/
+/*display:none!important*/
+/*}*/
+.demo-split-pane{
+  padding: 2px;
+}
+.demo-split{
+  height: 100%;
+}
+.ivu-radio-wrapper{
+  margin:0 !important;
+}
+.selectPosition{
+  min-height: 40px;
+  margin-bottom: 8px;
+  margin-top:-4px;
+  overflow:visible
+}
+.ivu-dropdown .ivu-select-dropdown{
+  overflow:auto;
+  max-height: 250px;
+}
+.ivu-input[disabled], fieldset[disabled] .ivu-input{
+  cursor:text
+}
+.ivu-select-disabled .ivu-select-selection{
+  cursor:text
+}
+/*.ivu-select-disabled{*/
+  /*cursor:text*/
+/*}*/
+.ivu-table-cell{
+  display:inline-block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap
+}
+.ivu-message .ivu-icon {
+  font-size: 48px;
+}
+.showDouble .ivu-form-item-required .ivu-form-item-label:before{
+  content:'**'!important;
+}
+.ivu-tabs{
+  overflow-y: auto;
+}
+.ivu-transfer-list{
+  width:250px
+}
+/*.ivu-btn-primary:hover{*/
+  /*background-color: #437cb5;*/
+  /*border: 1px solid #439cb5;*/
+/*}*/
+.ivu-spin-fix{
+  z-index: 899!important;
+}
+/*@font-face {*/
+  /*font-family: 'FontAwesome';*/
+  /*src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');*/
+  /*src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');*/
+  /*font-weight: normal;*/
+  /*font-style: normal;*/
+/*}*/
+/*.fa-pencil:before {*/
+  /*content: "\f040";*/
+/*}*/
+/*.fa {*/
+  /*display: inline-block;*/
+  /*font: normal normal normal 14px/1 FontAwesome;*/
+  /*font-size: inherit;*/
+  /*text-rendering: auto;*/
+  /*-webkit-font-smoothing: antialiased;*/
+  /*-moz-osx-font-smoothing: grayscale;*/
+/*}*/
+/*.fa-fw {*/
+  /*width: 1.28571429em;*/
+  /*text-align: center;*/
+/*}*/
+/*@font-face {font-family: "iconfont";*/
+  /*src: url('../aliFile/iconfont.eot?t=1557801962444'); !* IE9 *!*/
+  /*src: url('../aliFile/iconfont.eot?t=1557801962444#iefix') format('embedded-opentype'), !* IE6-IE8 *!*/
+  /*url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAK0AAsAAAAABmQAAAJqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcApwfQE2AiQDCAsGAAQgBYRtBy0boAURFYwJsq8GbLca5LCmNu79/fhWqvWzIMn5zubInFhSZmae8fC4lr2fZLZppsAKUVYCajhU5E6hcldVZ89olmzEbk3HcG9UEKZL9jxbTd+R/92RhnUep1FmCAVCMv/n+mWLNmmKwrIqoOmGe9MLPW8OwiO/rgBkrdcXlbW6suuS0+e5nN4ooEDmB8pxLxpz4FEvwHhroGMNiqyEMm6YXr7AgThOoFl2KK6dKAZVoccF4u00VKAWfIrCklUYNCwtIO51atrSy8in6PvxXxYVSLoMdNndG7sF57+aScvLUC8Cgp+AVnfIOEQhnjbGbmTBOFmLFescqzj41YbDwCqOahLsr9OFY2ARip9J4qSPWphAgb1L2J10BaURTM+p1a4YLnJ7GpI2S6o92/Ig0w8P65n6jL8u/6+/08/sa7vgdJyK4rVTzwuJ+DH/ve/y49c7xz/LPboKBCszVHDHV4oA+GL7LzIWwxzUXdqDXyMZWFOETOvSNcTInizlxktoGoawa8bPqfr5+0iFav5ulCNCkiGrNsnCPkSnd4SB6gwN8cBidW8WmYoyin0PgDDliWTCZ2RT3mRh/9BZ8MfAVGA0z2N2y952TOKKsGCsobyDqdpGWhuLuHiH6uwLyssi7glpMEFIo6ScXGCDtMSM4aIyZgmS2gBzcBp630JHrcWKI83c5XEsm94UVW0YCVcIKjBUA6U7YFRaDRk0ZqLy+R2knHkF6mDkoieIDEz/IBVJBpALdTOI8SivDC6UDGMSkEgrAHMwCHleC3TNgyxUYRE9IdLJxaaeHKqOtteGv9sEjTakMFVZ/ojNaAQ=') format('woff2'),*/
+  /*url('../aliFile/iconfont.woff?t=1557801962444') format('woff'),*/
+  /*url('../aliFile/iconfont.ttf?t=1557801962444') format('truetype'), !* chrome, firefox, opera, Safari, Android, iOS 4.2+ *!*/
+  /*url('../aliFile/iconfont.svg?t=1557801962444#iconfont') format('svg'); !* iOS 4.1- *!*/
+/*}*/
+@font-face {font-family: "iconfont";
+  src: url('../aliFile/iconfont.eot?t=1557806287205'); /* IE9 */
+  src: url('../aliFile/iconfont.eot?t=1557806287205#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAK4AAsAAAAABmwAAAJqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAp4gQUBNgIkAwgLBgAEIAWEbQctG6gFyA4lTQPVmAmEwEAE3+/3uufd+xFVkFwiAXWBFKoq9ECuqpWONOlOhcpUd+L6jub0RixnX22ctFVjUgiB+wB/fiSBhQGUCHYTZq0wA+HI57mc3jWAApkfKMe9aI1BvQDjgALaG6MtXCapN4xd8ALPE2iaUyHpvKNvEDJl9rRAPDY0CTILLllm0bpQbVibxScV9eJD8R34GH0//opFJoVKYudde9SuQtNF3YlLb8u37gYENwFtriBhB8jErcbQFSmCMVI0Q6mWwLGyg4t6WQZGcdQ/T1TZmW0wA/nPJPCEj7q2ABlVzHv2uknvo9qMHN14cbVcdudyp2R/qHFwWB3SxrK7dwaPXgoHu1enl0VR9V6OX/lxfv5x5c/3ROJdeuD3ef0aT7x9vbjcdbLfGPz/8Kz58P825F0DOAYoH9JlugJJCH58o7MzBfv/6q0Mfpv6FTnKh2yYBdR3aw5+j2BgSzZEtqHImqAxVpiXftqqpiZKwLah76nqyb3EQt3kjiw1sxmSuhUy03dQ0bKHqrojNG3r3NwywqSI3MCWdYDQd4dC12ckfXEy079QMfWDqn6koOlOjPZsWQsj+4yhxFEl8hIxFM+lrolnx9n9qM3ZEsuLIuYwstDwkqgQKUc70UW2xIJwXotxTgllnkM6wGVo2x7xmWeiwgWdc79GFGnTjQTFcyDbGQZJOKQiZEsIg8LjokFnLrvy+X5IM8cmYR1Ndd5hiAkZvRNRgsgAslPuDmp6lGtC8zQxHEcRFONxEB1gFLLZPITfPMqEFJxAnxDw1RCddnSoXNhe6fzdLmiyNUU4RUl6ji4AAAAA') format('woff2'),
+  url('../aliFile/iconfont.woff?t=1557806287205') format('woff'),
+  url('../aliFile/iconfont.ttf?t=1557806287205') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('../aliFile/iconfont.svg?t=1557806287205#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+  display: inline-block;
+  font: normal normal normal 14px/1 iconfont;
+  font-size: 16px !important;
+  /*font-size: inherit;*/
+  text-rendering: auto;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*font-family: "iconfont" !important;*/
+/*font-size: 16px;*/
+/*font-style: normal;*/
+/*-webkit-font-smoothing: antialiased;*/
+/*-moz-osx-font-smoothing: grayscale;*/
+.icon-pen:before {
+  content: "\e908";
+}
+.fa-fw {
+/*width: 1.2em;*/
+text-align: center;
+}
+/*.ivu-table-wrapper{*/
+  /*white-space: nowrap !important;*/
+/*}*/
+.ivu-input[disabled], fieldset[disabled] .ivu-input{
+  background-color:#eee;
+  color:#666
+}
+.ivu-select-disabled .ivu-select-selection{
+  background-color:#eee !important;
+  color:#666 !important
+}
